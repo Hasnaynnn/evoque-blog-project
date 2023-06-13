@@ -1,0 +1,6 @@
+create a .env file in backend folder and add below lines.
+
+DB_URL = "HERE SHOULD BE YOUR DB URL"
+CLOUD_NAME = "dxgk3lc63"
+CLOUD_API_KEY = "385524412446863"
+CLOUD_API_SECRET = "DgGlkreOh4Fs5EI5hRZXeeyowBA"
