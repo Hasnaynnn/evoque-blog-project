@@ -1,0 +1,151 @@
+.single_article_page{
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    box-sizing: border-box;
+}
+
+.blogs_section{
+    width: 70%;
+    max-height: 100vh !important;
+    overflow-y: scroll;
+}
+.full_flex {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.blog_card {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    box-sizing: border-box;
+    padding: 20px 50px;
+    margin-bottom: 40px;
+}
+
+.blog_card_heading {
+    text-align: center;
+}
+
+.blog_card h1,
+.blog_card h2,
+.blog_card h3,
+.blog_card h4,
+.blog_card p {
+    margin: 10px 0px;
+}
+.blog_card_image_part {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blog_card_img {
+    width: 80% !important;
+    height: auto;
+    border-radius: 20px;
+    margin: 20px 0px;
+}
+
+.admin_tabs_div {
+    padding: 20px;
+}
+
+.admin_tabs_div a {
+    text-decoration: none;
+    color: white;
+    background-color: var(--button_bg_color);
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.filteration_bar {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+    box-sizing: border-box;
+}
+
+.filteration_bar button {
+    margin: 0px 10px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: none;
+    background-color: var(--button_bg_color);
+    color: white;
+    cursor: pointer;
+}
+
+.filteration_bar button:hover {
+    background-color: gray;
+}
+.archive_blogs_section{
+    padding: 20px;
+    display: flex;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.blog_card_video_wrapper{
+    width: 300px;
+    background-color: aquamarine;
+}
+.oval {
+    float: right;
+    padding: 10px;
+  }
+@media screen and (max-width : 800px) {
+    .blog_card {
+        width: 100%;
+    }
+}
+
+.adbar_container{
+    width: 30%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    z-index: 100;
+}
+
+.adbar_box{
+    width: 80%;
+    height: 30%;
+    background-color: rgb(246, 242, 242);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px 0px;
+}
+
+.sub_categories_bar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+}
+.sub_categories_bar .sub_categories{
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.sub_categories_bar .sub_categories a {
+    text-decoration: none;
+    color: rgb(33, 27, 214);
+    cursor: pointer;
+}

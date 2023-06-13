@@ -1,0 +1,91 @@
+.create_post_container {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+    box-sizing: border-box;
+}
+
+.form_container {
+    width: 80%;
+    background-color: var(--background_color_2);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.form_container h2 {
+    text-align: center;
+}
+
+.input_field_wrapper {
+    width: 100%;
+    margin: 20px 0px;
+}
+
+.input_field_wrapper input[type="text"] {
+    background-color: transparent;
+    padding: 15px 10px;
+    border: 1px solid var(--button_bg_color);
+    box-sizing: border-box;
+    width: 100%;
+    font-size: medium;
+    border-radius: 5px;
+}
+
+.input_field_wrapper input[type="text"]::placeholder {
+    color: black;
+    opacity: 0.5;
+}
+
+.input_field_wrapper input::file-selector-button {
+    font-weight: bold;
+    color: black;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border: thin solid var(--button_bg_color);
+    border-radius: 3px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.input_field_wrapper input::file-selector-button:hover {
+    border: 2px solid var(--button_bg_color);
+}
+
+.button_wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.submit_btn {
+    padding: 15px 20px;
+    background-color: var(--button_bg_color);
+    border: none;
+    color: white;
+    border-radius: 5px;
+    box-sizing: border-box;
+    width: 50%;
+    cursor: pointer;
+}
+
+
+.editor_wrapper {
+    margin: 20px 0px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.editor_class {
+    background-color: whitesmoke;
+    padding: 1rem;
+    border: 1px solid var(--button_bg_color);
+    min-height: 70vh;
+}
+
+.toolbar_class {
+    border: 1px solid var(--button_bg_color);
+}
