@@ -1,6 +1,41 @@
+********************************IMPORTANT*****************************************
 create a .env file in backend folder and add below lines.
 
 DB_URL = "HERE SHOULD BE YOUR DB URL"
 CLOUD_NAME = "dxgk3lc63"
 CLOUD_API_KEY = "385524412446863"
 CLOUD_API_SECRET = "DgGlkreOh4Fs5EI5hRZXeeyowBA"
+**********************************************************************************
+
+1) Now open the project folder in VS CODE
+2) CD to backend folder and type the following commands,
+         
+          1- npm install
+          2- npm run dev
+          
+          > evoque-api@1.0.0 dev
+          > nodemon index.js
+
+        [nodemon] 2.0.21
+        [nodemon] to restart at any time, enter `rs`
+        [nodemon] watching path(s): *.*
+        [nodemon] watching extensions: js,mjs,json
+        [nodemon] starting `node index.js`
+        app is running on port 8000
+        DB Connected
+    
+    (NOW YOUR BACKEND IS STARTED AND CONNECTED TO DATABASE)
+
+***********************************************************************************
+    
+ 1) Now CD to blog-app folder and type the following commands,
+ 
+          1- npm install
+          2- npm run dev 
+          
+          > blog-app@0.1.0 dev
+          > next dev
+          ready - started server on 0.0.0.0:3000, url: http://localhost:3000
+          
+         (NOW YOUR BLOG-APP IS STARTED OPEN localhost:3000)
+************************************************************************************         
