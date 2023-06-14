@@ -1,17 +1,17 @@
-********************************IMPORTANT*****************************************
-create a .env file in backend folder and add below lines.
+********************************𝐈𝐌𝐏𝐎𝐑𝐓𝐀𝐍𝐓*****************************************
+𝐜𝐫𝐞𝐚𝐭𝐞 𝐚 .𝐞𝐧𝐯 𝐟𝐢𝐥𝐞 𝐢𝐧 𝐛𝐚𝐜𝐤𝐞𝐧𝐝 𝐟𝐨𝐥𝐝𝐞𝐫 𝐚𝐧𝐝 𝐚𝐝𝐝 𝐛𝐞𝐥𝐨𝐰 𝐥𝐢𝐧𝐞𝐬.
 
-DB_URL = "HERE SHOULD BE YOUR DB URL"
-CLOUD_NAME = "dxgk3lc63"
-CLOUD_API_KEY = "385524412446863"
-CLOUD_API_SECRET = "DgGlkreOh4Fs5EI5hRZXeeyowBA"
-**********************************************************************************
+𝐃𝐁_𝐔𝐑𝐋 = "𝐇𝐄𝐑𝐄 𝐒𝐇𝐎𝐔𝐋𝐃 𝐁𝐄 𝐘𝐎𝐔𝐑 𝐌𝐎𝐍𝐆𝐎-𝐃𝐁 𝐔𝐑𝐋"
+𝐂𝐋𝐎𝐔𝐃_𝐍𝐀𝐌𝐄 = "𝐝𝐱𝐠𝐤𝟑𝐥𝐜𝟔𝟑"
+𝐂𝐋𝐎𝐔𝐃_𝐀𝐏𝐈_𝐊𝐄𝐘 = "𝟑𝟖𝟓𝟓𝟐𝟒𝟒𝟏𝟐𝟒𝟒𝟔𝟖𝟔𝟑"
+𝐂𝐋𝐎𝐔𝐃_𝐀𝐏𝐈_𝐒𝐄𝐂𝐑𝐄𝐓 = "𝐃𝐠𝐆𝐥𝐤𝐫𝐞𝐎𝐡𝟒𝐅𝐬𝟓𝐄𝐈𝟓𝐡𝐑𝐙𝐗𝐞𝐞𝐲𝐨𝐰𝐁𝐀"
+************************************************************************************
 
 1) Now open the project folder in VS CODE
-2) CD to backend folder and type the following commands,
+2) CD to backend folder and type the following 2 commands,
          
-          1- npm install
-          2- npm run dev
+       𝟏- 𝐧𝐩𝐦 𝐢𝐧𝐬𝐭𝐚𝐥𝐥
+       𝟐- 𝐧𝐩𝐦 𝐫𝐮𝐧 𝐝𝐞𝐯 
           
           > evoque-api@1.0.0 dev
           > nodemon index.js
@@ -28,10 +28,10 @@ CLOUD_API_SECRET = "DgGlkreOh4Fs5EI5hRZXeeyowBA"
 
 ***********************************************************************************
     
- 1) Now CD to blog-app folder and type the following commands,
+ 1) Now CD to blog-app folder and type the following 2 commands,
  
-          1- npm install
-          2- npm run dev 
+       𝟏- 𝐧𝐩𝐦 𝐢𝐧𝐬𝐭𝐚𝐥𝐥
+       𝟐- 𝐧𝐩𝐦 𝐫𝐮𝐧 𝐝𝐞𝐯 
           
           > blog-app@0.1.0 dev
           > next dev
